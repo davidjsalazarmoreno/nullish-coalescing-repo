@@ -70,3 +70,12 @@ console.group('Ej, Nullish Coalescing Operator (??) - ESNext - Bits.')
   console.log('discount es '+ discountNumber)
   console.log('published es '+ published)
 console.groupEnd()
+
+/**
+ * Ej 2, Optional Chaining (?) + Nullish Coalescing Operator (??) - ESNext - Bits.
+ */
+const courseCategory = courseSettings?.category?.name ?? 'General'
+
+console.group('Optional Chaining (?) + Nullish Coalescing Operator (??) - ESNext - Bits.')
+  console.log(`courseCategory es ${courseCategory}`)
+console.groupEnd()
