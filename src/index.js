@@ -25,7 +25,7 @@ const courseSettings = {
 const productName = courseSettings.name || 'Unamed Product'
 const { name = 'Unamed Product' } = courseSettings
 
-console.group('Usando short circuit con el operador lógico ó usar desestructurado  con valores por defecto.')
+console.group(`Usando short circuit con el operador lógico ó usar desestructurado  con valores por defecto.`)
   console.log(productName)
   console.log(name)
 console.groupEnd()
@@ -70,6 +70,8 @@ console.group('Ej, Nullish Coalescing Operator (??) - ESNext - Bits.')
   console.log('discount es '+ discountNumber)
   console.log('published es '+ published)
 console.groupEnd()
+
+
 
 /**
  * Ej 2, Optional Chaining (?) + Nullish Coalescing Operator (??) - ESNext - Bits.
